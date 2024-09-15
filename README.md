@@ -1,2 +1,2 @@
 # failed-ping-alert
-audio alert when a up is unreachable
+audio alert when an ip is unreachable
