@@ -22,6 +22,6 @@ while ($pingFail -eq 0) {
         $percentage = [math]::Round(($successfulPings / $pingCount) * 100, 2)
         Write-Host "Ping $pingCount succeeded to $target ($percentage%)" -NoNewline
     }
-
+}
     Start-Sleep -Seconds 2
     Write-Host "`r" -NoNewline
